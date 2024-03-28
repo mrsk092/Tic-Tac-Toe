@@ -106,6 +106,7 @@ function gameReset()
 {
     turnO=true;
     count=0;
+    document.getElementById("display").innerText="Tic Tac Toe";
     enableBoxes();
 }
 
